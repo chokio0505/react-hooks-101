@@ -21,8 +21,6 @@ const EventForm = () => {
             body
         });
 
-        debugger
-
         dispatch({
             type: ADD_OPERATION_LOG,
             description: 'イベントを作成しました',
